@@ -1,0 +1,17 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "A secure password generator with flexible character set configuration, batch generation, strength assessment, and clipboard copy",
+  "main": "index.js",
+  "bin": {
+    "passgen": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --strength -l 16 -c lower,upper,digit,symbol"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
